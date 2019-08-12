@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+body {
+    background-color: rgb(137, 184, 187);
+  }
+  
+  table {
+    margin: auto;
+    background-color: rgb(16, 32, 9);
+    width: 295px;
+    height: 325px;
+    text-align: center;
+    padding: 14px;
+  }
+  
+  input {
+    position: relative;
+    left: 5px;
+    top: 5px;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  #display {
+    width: 265px;
+    max-width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #e7e7d5;
+    float: left;
+  }
+  
+  .operator {
+    background-color: #cee9ea;
+    position: relative;
+  }
+  
+  #clear {
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #ff9fa8;
+  }
+  

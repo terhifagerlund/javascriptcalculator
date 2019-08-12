@@ -1,0 +1,39 @@
+<html>
+    <head>
+            <link rel="stylesheet" type="text/css" href="laskin.css">
+    </head>
+    <body>
+        <h1>Laskin</h1>
+    <form name="Calc">
+        <table  BORDER=4>
+            <tr>
+                <td colspan="4"><input type="text" name="display" id="display" disabled></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="one" value="7" onclick="Calc.display.value += '7'"></td>
+                <td><input type="button" name="two" value="8" onclick="Calc.display.value += '8'"></td>
+                <td><input type="button" name="three" value="9" onclick="Calc.display.value += '9'"></td>
+                <td><input type="button" class="operator" name="plus" value="+" onclick="Calc.display.value += '+'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="four" value="4" onclick="Calc.display.value += '4'"></td>
+                <td><input type="button" name="five" value="5" onclick="Calc.display.value += '5'"></td>
+                <td><input type="button" name="six" value="6" onclick="Calc.display.value +='6'"></td>
+                <td><input type="button" class="operator" name="minus" value="-" onclick="Calc.display.value += '-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="seven" value="1" onclick="Calc.display.value +=  '1'"></td>
+                <td><input type="button" name="eight" value="2" onclick="Calc.display.value += '2'"></td>
+                <td><input type="button" name="nine" value="3" onclick="Calc.display.value +=  '3'"></td>
+                <td><input type="button" class="operator" name="times" value="x" onclick="Calc.display.value +=  '*'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="clear" name="clear" value="c" onclick="Calc.display.value =  ''"></td>
+                <td><input type="button" name="zero" value="0" onclick="Calc.display.value +=  '0'"></td>
+                <td><input type="button" name="doit" value="=" onclick="Calc.display.value = eval(Calc.display.value)"></td>
+                <td><input type="button" class="operator" name="div" value="/" onclick="Calc.display.value +=  '/'"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
